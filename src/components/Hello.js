@@ -4,10 +4,10 @@ const Hello = () => {
     return React.createElement(
         'div', 
         // null,
-        {id: 'div1', className: 'dummyClass'},
+        {id: 'div1', className: 'divClass'},
         React.createElement(
             'h1', 
-            {id: 'div2', className: 'h1Class'}, 
+            {id: 'h1', className: 'h1Class'}, 
             'This is inside div tag'
         ),
         React.createElement(
@@ -16,12 +16,12 @@ const Hello = () => {
             'This is a p tag inside div'
         ),
         React.createElement(
-            'p', 
-            {id: 'p2', className: 'pClass'}, 
+            'div', 
+            {id: 'div3', className: 'divClass'}, 
             React.createElement(
                 'div', 
-                {id: 'div2', className: 'dummyClass'},
-                'This is a div inside p tag'
+                {id: 'div3', className: 'divClass'},
+                'This is a div inside div tag'
             )
         )
     )
