@@ -8,7 +8,7 @@ export const Greet = props => {
     console.log(props.name, props)
     return (
         <div>
-            <h1 className='nameClass'>
+            <h1 className='card nameClass'>
                 Hello {props.name}{' and '+props.secondName}
             </h1>
             {props.children}
