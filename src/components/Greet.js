@@ -9,7 +9,7 @@ export const Greet = props => {
     return (
         <div>
             <h1 className='card nameClass'>
-                Hello {props.name}{' and '+props.secondName}
+                Hello {props.name}{' or '+props.secondName}
             </h1>
             {props.children}
         </div>
